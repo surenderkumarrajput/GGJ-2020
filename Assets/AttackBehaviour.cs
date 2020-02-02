@@ -27,7 +27,6 @@ public class AttackBehaviour : StateMachineBehaviour
         if(Vector2.Distance(rb.position, pos.position) <=2)
         {
             animator.SetTrigger("Attack");
-            shadowEnemies.Attack(10);
         }
         shadowEnemies.LookAtPlayer();
         

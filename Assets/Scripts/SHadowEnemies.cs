@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SHadowEnemies : MonoBehaviour
 {
-
+    public float ShadowEnemy;
     public Transform Player;
     public bool isFipped;
     public float radius;
