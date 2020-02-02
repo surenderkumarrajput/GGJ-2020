@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5754081200067527782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5754081200067527780}
+  - component: {fileID: 5754081200067527783}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5754081200067527780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5754081200067527782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.41875, y: 2.622303, z: -5.5867987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5754081200067527783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5754081200067527782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bcdea8e92e1324b94642f16c2de665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: Theme
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: c19122c8d1604384bbcef43768b5f515, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Sword
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 26a0eb25a81f47a4c8dddf410d00b000, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Misunderstanding
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a682f6f359eccb74c85d1ef454610d3d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Click
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: d1af8a3aec05fec49a26c9601a11598e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0

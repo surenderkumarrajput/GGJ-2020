@@ -31,7 +31,7 @@ public class Misunderstanding : MonoBehaviour
     }
     public void Shoot()
     {
-        if (Vector2.Distance(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().transform.position, transform.position) < 10)
+        if (Vector2.Distance(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().transform.position, transform.position) < 8)
         {
            GameObject instance= Instantiate(Bullet, Trigger.transform.position,Quaternion.identity);
            Destroy(instance, 5f);

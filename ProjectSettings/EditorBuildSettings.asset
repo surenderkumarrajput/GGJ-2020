@@ -6,15 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 476802720aa7714428d8367c64f73db8
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 3035261e43ea5ab4f86cd7897471efeb
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: fafc1648c7a5ac1448feb95b1341f95c
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/AfterLevel1Story.unity
+    guid: 090c6d55b0795a7468fad85f13fa08b6
+  - enabled: 1
     path: Assets/Scenes/Level1ShadowFight.unity
     guid: 28fdf48b73f42d04bb1b10348654f0c7
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/79be3c30e820b95499634dde42b8d37f
+    guid: 79be3c30e820b95499634dde42b8d37f
   - enabled: 1
     path: Assets/Scenes/Level2.unity
-    guid: 79be3c30e820b95499634dde42b8d37f
+    guid: d9bbfbbda9f2cf345bf419b1892d08fb
+  - enabled: 1
+    path: Assets/Scenes/GameEnd.unity
+    guid: 0e871a7e0e3e42b459111bcc588a42ad
+  - enabled: 1
+    path: Assets/Scenes/GameWin.unity
+    guid: 26c4084bc1a8eb14db7c564302cf1d95
   m_configObjects: {}

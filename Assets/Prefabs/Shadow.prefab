@@ -116,8 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50c0e81052c2534db1e973956e8f797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShadowHealth: 100
-  Player: {fileID: 0}
+  ShadowHealth: 0
+  Player: {fileID: 7644357887066864453, guid: fa0f86824865f194d8d8c7dbb22a86af, type: 3}
   isFipped: 0
   radius: 0.76
   layers:

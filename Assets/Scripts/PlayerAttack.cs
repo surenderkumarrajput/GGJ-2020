@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     public LayerMask layers;
-    public Misunderstanding misunderstanding;
-    public SHadowEnemies shadowenemies;
     public float radius;
+    public GameObject MisunderstandingEffect;
     private void Start()
     {
     }
@@ -23,11 +22,13 @@ public class PlayerAttack : MonoBehaviour
         {
             if(obj.gameObject.CompareTag("Collectables"))
             {
-                misunderstanding.DamageTaken(damage);
+                Instantiate(MisunderstandingEffect, transform.position, Quaternion.identity);
+                obj.gameObject.GetComponent<Misunderstanding>().DamageTaken(damage);
             }
             if(obj.gameObject.CompareTag("Shadow"))
             {
-                shadowenemies.TakeDamage(damage);
+                obj.gameObject.GetComponent<SHadowEnemies>().TakeDamage(damage);
+                Instantiate(MisunderstandingEffect, transform.position, Quaternion.identity);
             }
         }
     }

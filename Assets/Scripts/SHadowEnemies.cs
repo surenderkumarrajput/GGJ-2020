@@ -12,6 +12,8 @@ public class SHadowEnemies : MonoBehaviour
     public LayerMask layers;
     public Transform Trigger;
     float stress;
+    public GameObject bloodeffect;
+    //public Animator anim;
     private void Start()
     {
     }
@@ -19,8 +21,7 @@ public class SHadowEnemies : MonoBehaviour
     {
        if(ShadowHealth<=0)
         {
-          Destroy(gameObject);
-            SceneManager.LoadScene("Level2");
+            Destroy(gameObject);
         }
     }
     public void Attack(float damage)
@@ -31,6 +32,8 @@ public class SHadowEnemies : MonoBehaviour
             if (collider != null)
             {
                  Player.GetComponent<HealthSystem>().healthDecrease(damage);
+                 Instantiate(bloodeffect, transform.position, Quaternion.identity);
+                 FindObjectOfType<AudioManager>().Play("Sword");
             }
         }
     }

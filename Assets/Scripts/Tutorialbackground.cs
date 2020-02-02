@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Tutorialbackground : MonoBehaviour
 {
+    public string scenename;
     public Animator anim;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -16,8 +17,13 @@ public class Tutorialbackground : MonoBehaviour
     IEnumerator waittime()
     {
         anim.SetTrigger("EndTransition");
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Level1");
+        yield return new WaitForSeconds(1.2f);
+        SceneManager.LoadScene(scenename);
     }
-    
+    public void changescene()
+    {
+        StartCoroutine(waittime());
+
+    }
+
 }

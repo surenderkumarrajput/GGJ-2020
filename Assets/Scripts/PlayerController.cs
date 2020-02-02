@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class PlayerController : MonoBehaviour
     public float clickthreshhold = 0.025f;
     double timerclick=0;
     public UImanager uimanager;
+    public GameObject bloodeffect;
+    HealthSystem healthSystem;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviour
         trustFactor = GetComponent<TrustFactor>();
         flippositive = new Vector2(transform.localScale.x, transform.localScale.y);
         flipnegative = new Vector2(-transform.localScale.x, transform.localScale.y);
+        healthSystem = GetComponent<HealthSystem>();
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -38,7 +42,7 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("EndPoint"))
         {
-            uimanager.TransitionSceneChnage("Level1ShadowFight");
+            uimanager.TransitionSceneChnage("AfterLevel1Story");
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -49,8 +53,10 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Bullet"))
         {
-           stressSystem.Stress = stressSystem.stressIncrease(10);
+            FindObjectOfType<AudioManager>().Play("Misunderstanding");
+            stressSystem.Stress = stressSystem.stressIncrease(10);
            bullet.DestroyFunction(collision.gameObject);
+           Instantiate(bloodeffect,transform.position,Quaternion.identity);
         }
         
         if (collision.gameObject.CompareTag("Collectables"))
@@ -65,8 +71,17 @@ public class PlayerController : MonoBehaviour
    
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(stressSystem.Stress==100)
         {
+            SceneManager.LoadScene("GameEnd");
+        }
+        if(healthSystem.health<=0)
+        {
+            SceneManager.LoadScene("GameEnd");
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            FindObjectOfType<AudioManager>().Play("Sword");
             if((Time.time-timerclick)>clickthreshhold)
             {
                 attack.PlayerAttackFunction(10);
