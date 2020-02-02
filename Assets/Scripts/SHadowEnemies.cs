@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SHadowEnemies : MonoBehaviour
 {
-    public float ShadowEnemy;
+    public float ShadowHealth=100;
     public Transform Player;
     public bool isFipped;
     public float radius;
@@ -13,6 +13,13 @@ public class SHadowEnemies : MonoBehaviour
     float stress;
     private void Start()
     {
+    }
+    private void Update()
+    {
+       if(ShadowHealth<=0)
+        {
+          Destroy(gameObject);
+        }
     }
     public void Attack(float damage)
     {
@@ -24,6 +31,11 @@ public class SHadowEnemies : MonoBehaviour
                  Player.GetComponent<HealthSystem>().healthDecrease(damage);
             }
         }
+    }
+    public void TakeDamage(float damage)
+    {
+        ShadowHealth -= damage;
+        ShadowHealth = Mathf.Clamp(ShadowHealth, 0, 100);
     }
     public void OnDrawGizmos()
     {
@@ -46,4 +58,5 @@ public class SHadowEnemies : MonoBehaviour
             isFipped = true;
         }
     }
+   
 }

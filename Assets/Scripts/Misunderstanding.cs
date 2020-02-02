@@ -27,6 +27,7 @@ public class Misunderstanding : MonoBehaviour
     public void DamageTaken(float damage)
     {
         Enemyhealth -= damage;
+        Enemyhealth = Mathf.Clamp(Enemyhealth,0,100);
     }
     public void Shoot()
     {

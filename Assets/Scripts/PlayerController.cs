@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
             trustFactor.TrustFactorAmount = trustFactor.TrustfactorIncrease(10);
             stressSystem.Stress = stressSystem.stressdecrease(5);
         }
+
     }
    
     void Update()

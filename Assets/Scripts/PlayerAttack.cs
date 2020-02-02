@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour
 {
     public LayerMask layers;
     public Misunderstanding misunderstanding;
+    public SHadowEnemies shadowenemies;
     public float radius;
     private void Start()
     {
@@ -20,7 +21,15 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] hit = Physics2D.OverlapCircleAll(transform.position, radius, layers);
         foreach (var obj in hit)
         {
-            misunderstanding.DamageTaken(damage);
+            if(obj.gameObject.CompareTag("Collectables"))
+            {
+                misunderstanding.DamageTaken(damage);
+            }
+            if(obj.gameObject.CompareTag("Shadow"))
+            {
+                shadowenemies.TakeDamage(damage);
+                Debug.Log(shadowenemies.ShadowHealth);
+            }
         }
     }
     private void OnDrawGizmos()

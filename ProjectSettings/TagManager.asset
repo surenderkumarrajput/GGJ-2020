@@ -9,6 +9,8 @@ TagManager:
   - Bullet
   - TrustFactorOrb
   - EndPoint
+  - Spawnner
+  - Shadow
   layers:
   - Default
   - TransparentFX
