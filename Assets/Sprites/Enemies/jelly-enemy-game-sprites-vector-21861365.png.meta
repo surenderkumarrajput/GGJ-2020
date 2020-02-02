@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 2cffa3772a97adc4eb2679d598806992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4068629525868885873
+    second: jelly-enemy-game-sprites-vector-21861365_0
+  - first:
+      213: -9029422072162588442
+    second: jelly-enemy-game-sprites-vector-21861365_1
+  - first:
+      213: 372342532839331546
+    second: jelly-enemy-game-sprites-vector-21861365_2
+  - first:
+      213: 4401151264305087423
+    second: jelly-enemy-game-sprites-vector-21861365_3
+  - first:
+      213: -444088888930781785
+    second: jelly-enemy-game-sprites-vector-21861365_4
+  - first:
+      213: 2092830239015307810
+    second: jelly-enemy-game-sprites-vector-21861365_5
+  - first:
+      213: -2949307727715510708
+    second: jelly-enemy-game-sprites-vector-21861365_6
+  - first:
+      213: 5761258706867505095
+    second: jelly-enemy-game-sprites-vector-21861365_7
+  - first:
+      213: 7028356472984277851
+    second: jelly-enemy-game-sprites-vector-21861365_8
+  - first:
+      213: 3438237916722299319
+    second: jelly-enemy-game-sprites-vector-21861365_9
+  - first:
+      213: -5080621210592492760
+    second: jelly-enemy-game-sprites-vector-21861365_10
+  - first:
+      213: 287747006365183976
+    second: jelly-enemy-game-sprites-vector-21861365_11
+  - first:
+      213: 3788975493817455972
+    second: jelly-enemy-game-sprites-vector-21861365_12
+  - first:
+      213: 4588191630171621723
+    second: jelly-enemy-game-sprites-vector-21861365_13
+  - first:
+      213: 2014620316322485399
+    second: jelly-enemy-game-sprites-vector-21861365_14
+  - first:
+      213: 8923933673941717314
+    second: jelly-enemy-game-sprites-vector-21861365_15
+  - first:
+      213: -6227054881906105646
+    second: jelly-enemy-game-sprites-vector-21861365_16
+  - first:
+      213: 2633937765830683063
+    second: jelly-enemy-game-sprites-vector-21861365_17
+  - first:
+      213: -7698994064692527685
+    second: jelly-enemy-game-sprites-vector-21861365_18
+  - first:
+      213: 3481099246337766408
+    second: jelly-enemy-game-sprites-vector-21861365_19
+  - first:
+      213: 6482432744817711322
+    second: jelly-enemy-game-sprites-vector-21861365_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 562
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf94a192e9ff0449b986d770fd5fdd5
+      internalID: 4068629525868885873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 562
+        width: 153
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd246d18dfbce4f9041b54447255e3
+      internalID: -9029422072162588442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 562
+        width: 152
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac7ef491b056b459682d5d6996afed
+      internalID: 372342532839331546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_3
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 562
+        width: 153
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc265a092f169324ebb732c6205f5879
+      internalID: 4401151264305087423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_4
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 562
+        width: 167
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c12b46784170dc4fbbf6a8da399a597
+      internalID: -444088888930781785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 401
+        width: 154
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3774b99982f2e1843b61c1156bf5a3f9
+      internalID: 2092830239015307810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 400
+        width: 158
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3220203a39cc7ba48b09bdbe04473866
+      internalID: -2949307727715510708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 399
+        width: 167
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4455825a56b1ce4fabae693cbb8d8b4
+      internalID: 5761258706867505095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_8
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 399
+        width: 172
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e32919af35954444a87c34c3cb093c8
+      internalID: 7028356472984277851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 399
+        width: 166
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e2e02b5d3f32740b34fd211bcc6c6f
+      internalID: 3438237916722299319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 235
+        width: 167
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ef32060235f634481534550dbd5e1e
+      internalID: -5080621210592492760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_11
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 355
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153b3def1ae9fec49952efc7ce696f99
+      internalID: 287747006365183976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 214
+        width: 154
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a242812e66118e4190912514b8d43f5
+      internalID: 3788975493817455972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 340
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae195df075189641b8d78bda8ed50a4
+      internalID: 4588191630171621723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 180
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e553129781ab419b194525f00d220
+      internalID: 2014620316322485399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_15
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 297
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73cd9898cd4a348a954cefd913fb39
+      internalID: 8923933673941717314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_16
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 293
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b15103f4a014f14c9af817983aee419
+      internalID: -6227054881906105646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 256
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad4af5d53810cd48b411bf7dcc44d2a
+      internalID: 2633937765830683063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_18
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 180
+        width: 159
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74a993aff5d6d448e3bf280e7b22fb
+      internalID: -7698994064692527685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 181
+        width: 153
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c75d3310146b0842a61f8abc74986bf
+      internalID: 3481099246337766408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jelly-enemy-game-sprites-vector-21861365_20
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 235
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c90f19cf044fc4eaf9f616ae762bb4
+      internalID: 6482432744817711322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
