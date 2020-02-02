@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SHadowEnemies : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class SHadowEnemies : MonoBehaviour
        if(ShadowHealth<=0)
         {
           Destroy(gameObject);
+            SceneManager.LoadScene("Level2");
         }
     }
     public void Attack(float damage)

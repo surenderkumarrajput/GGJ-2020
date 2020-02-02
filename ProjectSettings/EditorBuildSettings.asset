@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: fafc1648c7a5ac1448feb95b1341f95c
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level1ShadowFight.unity
     guid: 28fdf48b73f42d04bb1b10348654f0c7
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 79be3c30e820b95499634dde42b8d37f
   m_configObjects: {}

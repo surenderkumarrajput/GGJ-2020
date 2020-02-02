@@ -28,7 +28,6 @@ public class PlayerAttack : MonoBehaviour
             if(obj.gameObject.CompareTag("Shadow"))
             {
                 shadowenemies.TakeDamage(damage);
-                Debug.Log(shadowenemies.ShadowHealth);
             }
         }
     }

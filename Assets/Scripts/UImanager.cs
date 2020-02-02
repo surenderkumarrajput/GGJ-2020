@@ -9,7 +9,8 @@ public class UImanager : MonoBehaviour
     public StressSystem stresssystem;
     public TrustFactor trustfactor;
     public HealthSystem HealthSystem;
-    public Image StressBar, TrustFactorBar,healthbar;
+    public SHadowEnemies shadowenemies;
+    public Image StressBar, TrustFactorBar,healthbar,ShadowHealthBar;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class UImanager : MonoBehaviour
         StressBar.fillAmount = stresssystem.Stress / 100f;
         TrustFactorBar.fillAmount = trustfactor.TrustFactorAmount / 100f;
         healthbar.fillAmount = HealthSystem.health / 100;
+        ShadowHealthBar.fillAmount = shadowenemies.ShadowHealth / 100;
     }
     public void TransitionSceneChnage(string index)
     {

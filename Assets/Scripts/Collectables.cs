@@ -18,6 +18,5 @@ public class Collectables : MonoBehaviour
     public void PathDestroyonCollectables(GameObject Path)
     {
         Destroy(Path);
-        Destroy(gameObject);
     }
 }

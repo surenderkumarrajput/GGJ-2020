@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public Bullet bullet;
     Animator anim;
     Vector2 flippositive, flipnegative;
-    public bool isGrounded = false, attackcompleted = false;
+    public bool isGrounded = false, attackcompleted = false,iswalking=false;
     public float clickthreshhold = 0.025f;
     double timerclick=0;
     public UImanager uimanager;
@@ -52,15 +52,11 @@ public class PlayerController : MonoBehaviour
            stressSystem.Stress = stressSystem.stressIncrease(10);
            bullet.DestroyFunction(collision.gameObject);
         }
-        if(collision.gameObject.CompareTag("TrustFactorOrb"))
-        {
-            trustFactor.TrustFactorAmount=trustFactor.TrustfactorIncrease(10);
-            Destroy(collision.gameObject);
-            stressSystem.Stress = stressSystem.stressdecrease(5);
-        }
+        
         if (collision.gameObject.CompareTag("Collectables"))
         {
             Collectables.instance.PathDestroyonCollectables(Collectables.instance.path);
+            Destroy(collision.gameObject);
             trustFactor.TrustFactorAmount = trustFactor.TrustfactorIncrease(10);
             stressSystem.Stress = stressSystem.stressdecrease(5);
         }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8610587518207991483}
   - component: {fileID: 8610587518207991482}
   - component: {fileID: 8610587518207991485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shadow
   m_TagString: Shadow
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8610587518207991457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.8, z: 0}
+  m_LocalPosition: {x: 5.2, y: -3.8, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 8610587518903205416}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 924c635ebb15fff408518eed8ac91fc6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38039216, g: 0.31764707, b: 0.31764707, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShadowHealth: 100
-  Player: {fileID: 7644357887066864453, guid: fa0f86824865f194d8d8c7dbb22a86af, type: 3}
+  Player: {fileID: 0}
   isFipped: 0
-  radius: 1
+  radius: 0.76
   layers:
     serializedVersion: 2
     m_Bits: 512
@@ -180,7 +180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8610587518903205416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
